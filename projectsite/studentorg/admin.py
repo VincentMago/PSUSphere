@@ -1,7 +1,6 @@
 from django.contrib import admin
 
 # Register your models here.
-<<<<<<< Updated upstream
 from .models import College, Program, Organization, Student, OrgMember
 
 
@@ -33,13 +32,3 @@ class StudentAdmin(admin.ModelAdmin):
 class OrgMemberAdmin(admin.ModelAdmin):
     list_display = ("student", "organization", "date_joined")
     search_fields = ("student__lastname", "student__firstname")
-=======
-
-from .models import College, Program, Organization, Student, OrgMember
-
-admin.site.Register(College)
-admin.site.Register(Program)
-admin.site.Register(Organization)
-admin.site.Register(Student)
-admin.site.Register(OrgMember)
->>>>>>> Stashed changes
