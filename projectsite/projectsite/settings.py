@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     "studentorg",
+    "'psusphere.pythonanywhere.com','127.0.0.1'"
 ]
 
 MIDDLEWARE = [
