@@ -43,3 +43,6 @@ class OrgMember(BaseModel):
     student = models.ForeignKey(Student, on_delete=models.CASCADE)
     organization = models.ForeignKey(Organization, on_delete=models.CASCADE)
     date_joined = models.DateField()
+    
+ 
+
