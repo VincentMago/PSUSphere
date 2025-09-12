@@ -20,8 +20,8 @@ from studentorg.views import HomePageView
 from studentorg import views
 
 urlpatterns = [
-path("admin/", admin.site.urls),
-path('', views.HomePageView.as_view(), name='home'),
+    path("admin/", admin.site.urls),
+    path('', views.HomePageView.as_view(), name='home'),
 ]
 
 urlpatterns = [
