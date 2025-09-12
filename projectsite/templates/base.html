@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="{% static 'css/ready.css' %}">
 <link rel="stylesheet" href="{% static 'css/demo.css' %}">
 
+<img src="{% static 'img/profile.jpg' %}" alt="user-img" width="36" class="img-circle">
 
 
 <script src="{% static 'js/core/jquery.3.2.1.min.js' %}"></script>
@@ -27,7 +28,21 @@
 <script src="{% static 'js/plugin/jquery-scrollbar/jquery.scrollbar.min.js' %}"></script>
 <script src="{% static 'js/ready.min.js' %}"></script>
 
+
+
 <div class="main-panel">
   {% block content %}
   {% endblock %}
-</div>
+
+<div class="user-box">
+  <div class="u-img"><img src="{% static 'img/profile.jpg' %}" alt="user"></div>
+
+
+<div class="photo">
+  <img src="{% static 'img/profile.jpg' %}">
+
+<p>Dashboard</p>
+  <p>Organization</p>
+  <p>Org. Members</p>
+  <p>Student</p>
+  <p>College</p>
